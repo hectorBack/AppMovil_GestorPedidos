@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/etProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Productos pedidos"
+        android:backgroundTint="#FF9800"
+        android:padding="12dp"
+        android:textColor="#212121"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/etTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total a pagar"
+        android:backgroundTint="#4CAF50"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textColor="#212121"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/etUltimos4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Últimos 4 dígitos del WhatsApp"
+        android:backgroundTint="#03A9F4"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColor="#212121"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnGuardarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Pedido"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF5722"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:elevation="4dp" />
+</LinearLayout>
+

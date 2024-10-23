@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F5F5F5"
+    android:gravity="center_horizontal"
+    android:elevation="8dp"
+    android:layout_margin="12dp"
+    android:clipToPadding="false">
+
+    <EditText
+        android:id="@+id/editTextProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Productos"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="#424242"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"
+        android:drawableLeft="@android:drawable/ic_menu_edit" />
+
+    <EditText
+        android:id="@+id/editTextTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total"
+        android:inputType="numberDecimal"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="#424242"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"
+        android:drawableLeft="@android:drawable/ic_input_get" />
+
+    <EditText
+        android:id="@+id/editTextWhatsApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="WhatsApp últimos 4 dígitos"
+        android:inputType="number"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="#424242"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@android:drawable/ic_menu_call" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:backgroundTint="#FF7043"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        android:elevation="6dp"
+        android:letterSpacing="0.05"
+        android:drawableLeft="@android:drawable/ic_menu_save" />
+</LinearLayout>
+
+
